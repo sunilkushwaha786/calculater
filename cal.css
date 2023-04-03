@@ -1,0 +1,86 @@
+body{
+    margin: 100px;
+    padding: 0;
+    background-color: rgb(4, 52, 52);
+}
+
+.calci{
+    width:500px;
+    height: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* size: 800px; */
+    transform: translate(-50%,-50%);
+    transition: 0.25px;
+    /* background-color: black; */
+    text-align: center;
+    
+}
+
+#display{
+    border: none;
+    background-color: aqua;
+    border-radius: 30px;
+    width: 245;
+    font-size: 20;
+    font-family: sans-serif;
+    font-weight: 300;
+    height: 60;
+    margin: auto;
+    border: 2px solid pink;
+    color: black;
+}
+
+.btnDesign{
+    width:55;
+    height:55;
+    font-size: 20;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: red;
+    padding-top: -1;
+    border-radius: 30px;
+    margin: 1.5;
+    transition: 0.25px;
+    /* cursor: pointer;
+    border: none; */
+    
+}
+
+.opratorDesign{
+    width:55;
+    height:55;
+    font-size: 20;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: red;
+    padding-top: -1;
+    border-radius: 30px;
+    margin: 1.5;
+    transition: 0.25px;
+    /* cursor: pointer;
+    border: none; */
+    
+}
+
+.opratorDesign:hover{
+    background: rgb(156, 209, 224);
+}
+
+#zero{
+    width:46px;
+    height:55;
+    font-size: 20;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: red;
+    padding-top: -1;
+    border-radius: 30px;
+    margin: 1.5;
+    transition: 0.25px;
+    cursor: pointer;
+    border: none;
+}
